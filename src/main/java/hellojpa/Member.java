@@ -13,6 +13,8 @@ public class Member {
     private Long id;
     private String name;
 
+    private RoleType roleType;
+
     public Long getId() {
         return id;
     }
@@ -27,5 +29,14 @@ public class Member {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+
+    public RoleType getRoleType() {
+        return roleType;
+    }
+
+    public void setRoleType(RoleType roleType) {
+        this.roleType = roleType;
     }
 }
