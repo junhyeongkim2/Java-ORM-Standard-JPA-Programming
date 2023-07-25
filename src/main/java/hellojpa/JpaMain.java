@@ -17,10 +17,6 @@ public class JpaMain {
 
         try{
 
-            Member findMember = em.find(Member.class, 1L);
-            findMember.setRoleType(RoleType.USER);
-            em.persist(findMember);
-
 
             tx.commit();
         }catch (Exception e){
