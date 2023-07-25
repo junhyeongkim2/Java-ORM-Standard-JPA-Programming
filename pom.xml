@@ -25,6 +25,13 @@
         <artifactId>jaxb-api</artifactId>
         <version>2.3.0</version>
     </dependency>
+    <!-- SLF4J (Simple Logging Facade for Java) with a binding (Logback in this example) -->
+
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+    </dependency>
+
 
 </dependencies>
     <properties>
