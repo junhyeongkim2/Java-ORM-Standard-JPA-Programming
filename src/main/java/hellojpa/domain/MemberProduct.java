@@ -1,6 +1,7 @@
 package hellojpa.domain;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 public class MemberProduct {
@@ -14,6 +15,11 @@ public class MemberProduct {
 
     @ManyToOne
     private Product product;
+
+    private int count;
+    private int price;
+
+    private LocalDateTime orderDateTime;
 
 
 
