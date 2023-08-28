@@ -1,6 +1,9 @@
 package hellojpa.domain;
 
-public class Movie {
+import javax.persistence.Entity;
+
+@Entity
+public class Movie extends Item {
 
     private String director;
     private String actor;
