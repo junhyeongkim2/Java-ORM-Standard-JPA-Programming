@@ -28,13 +28,7 @@ public class Member {
     private List<MemberProduct> memberProducts = new ArrayList<>();
 
 
-    private String createdBy;
 
-    private LocalDateTime createdDate;
-
-    private String lastModifiedBy;
-
-    private LocalDateTime lastModifiedDate;
 
 
 
