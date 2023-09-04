@@ -22,11 +22,13 @@ public class JpaMain {
 
         try{
 
+            Member member = new Member();
+            member.setCreatedBy("kim");
+
             Team team = new Team();
             team.setName("TeamA");
             em.persist(team);;
 
-            Member member = new Member();
             member.setUsername("member1");;
             member.setTeam(team);
             em.persist(member);
